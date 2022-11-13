@@ -1,3 +1,4 @@
+import { Title, Meta } from "react-head";
 import { Carousel } from "react-responsive-carousel";
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 import { Button } from "../../components/button/button";
@@ -37,6 +38,11 @@ export function HomePage() {
 
   return (
     <DefaultLayout>
+      <Meta
+        name="description"
+        content="Rent a Place away from Home in the Metaverse"
+      />
+      <Title>Metabnb</Title>
       <div className="home-page">
         <div className="home-page__hero">
           <div className="container">

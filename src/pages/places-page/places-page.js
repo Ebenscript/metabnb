@@ -1,3 +1,4 @@
+import { Meta, Title } from "react-head";
 import { DefaultLayout } from "../../components/default-layout/default-layout";
 import { PlaceCard } from "../../components/place-card/place-card";
 import placeOne from "../../images/place1.png";
@@ -41,6 +42,8 @@ function PlacesPage() {
 
   return (
     <DefaultLayout>
+      <Meta name="description" content="Inspiration for your next adventure" />
+      <Title>Places</Title>
       <div className="places-page">
         <div className="container">
           <div className="d-grid" style={{ "--gap": "64px" }}>
