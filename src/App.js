@@ -1,9 +1,16 @@
 import { Route, Routes } from "react-router-dom";
 import "./app.css";
-import { Footer } from "./components/footer/footer";
+import { DefaultLayout } from "./components/default-layout/default-layout";
 
 function HomePage() {
-  return <Footer />;
+  return (
+    <DefaultLayout>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut similique
+      enim repellendus officia qui incidunt distinctio dolor tempora laudantium
+      mollitia! Commodi ut quibusdam esse odit nesciunt possimus. In, accusamus
+      sunt.
+    </DefaultLayout>
+  );
 }
 
 function PlacesPage() {
