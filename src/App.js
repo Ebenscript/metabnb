@@ -1,8 +1,9 @@
 import { Route, Routes } from "react-router-dom";
 import "./app.css";
+import { Header } from "./components/header/header";
 
 function HomePage() {
-  return "home page";
+  return <Header />;
 }
 
 function PlacesPage() {

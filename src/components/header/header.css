@@ -1,0 +1,10 @@
+.header__nav-link {
+  font-family: "Red Rose";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 25px;
+  color: #434343;
+
+  text-decoration: none;
+}
