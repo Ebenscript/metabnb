@@ -57,6 +57,12 @@ img {
   max-width: 100%;
 }
 
+a, input {
+  font: inherit;
+  text-decoration: none;
+  color: inherit;
+}
+
 .d-none {
   display: none;
 }
