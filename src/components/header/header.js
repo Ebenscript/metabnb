@@ -2,6 +2,7 @@ import NiceModal from "@ebay/nice-modal-react";
 import { Link, NavLink } from "react-router-dom";
 import hamburger from "../../images/hamburger.svg";
 import logo from "../../images/logo.svg";
+import { ConnectWalletModal } from "../../modal/connect-wallet/connect-wallet";
 import { MobileMenu } from "../../modal/mobile-menu/mobile-menu";
 import { Button } from "../button/button";
 import "./header.css";
@@ -30,7 +31,12 @@ export function Header() {
             </a>
           </div>
 
-          <Button className="button d-none lg-d-block">Connect wallet</Button>
+          <Button
+            onClick={() => NiceModal.show(ConnectWalletModal)}
+            className="button d-none lg-d-block"
+          >
+            Connect wallet
+          </Button>
 
           <Button
             isIconButton

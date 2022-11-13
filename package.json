@@ -38,7 +38,9 @@
   },
   "devDependencies": {
     "@ebay/nice-modal-react": "^1.2.8",
+    "rc-dialog": "^9.0.2",
     "rc-drawer": "^6.0.1",
+    "react-responsive-carousel": "^3.2.23",
     "react-router-dom": "^6.4.3"
   }
 }
