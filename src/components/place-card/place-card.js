@@ -8,8 +8,8 @@ export function PlaceCard(props) {
     <div className="place-card">
       <div className="d-grid" style={{ "--gap": "16px" }}>
         <div className="image">
-          <a href="#desert_king" className="d-block place-card__image">
-            <img className="place-card__image" src={props.image} alt="" />
+          <a href="#desert_king" className="d-block place-card__image-link">
+            <img className="d-bock" src={props.image} alt="" />
           </a>
           <Button isIconButton className="place-card__heart">
             <img src={heart} alt="" />

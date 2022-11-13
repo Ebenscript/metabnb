@@ -13,8 +13,11 @@
   color: #434343;
 }
 
-.place-card__image {
-  width: 100%;
+.place-card__image-link {
+  min-height: 263px;
+  line-height: 0;
+  border-radius: 15px;
+  background-color: #c1c1c1;
 }
 
 .place-card__price {

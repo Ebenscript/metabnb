@@ -67,6 +67,10 @@ a, input {
   display: none;
 }
 
+.d-block {
+  display: block;
+}
+
 .d-flex {
   display: flex;
   gap: var(--gap, 16px);
