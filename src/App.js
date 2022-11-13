@@ -1,9 +1,9 @@
 import { Route, Routes } from "react-router-dom";
 import "./app.css";
-import { Header } from "./components/header/header";
+import { Footer } from "./components/footer/footer";
 
 function HomePage() {
-  return <Header />;
+  return <Footer />;
 }
 
 function PlacesPage() {
