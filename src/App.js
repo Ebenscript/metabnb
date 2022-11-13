@@ -1,10 +1,7 @@
 import { Route, Routes } from "react-router-dom";
 import "./app.css";
 import { HomePage } from "./pages/home-page/home-page";
-
-function PlacesPage() {
-  return "places page";
-}
+import PlacesPage from "./pages/places-page/places-page";
 
 function App() {
   return (
