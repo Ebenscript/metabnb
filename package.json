@@ -2,7 +2,7 @@
   "name": "metabnb",
   "version": "0.1.0",
   "private": true,
-  "home": "https://ebenscript.github.io/metabnb",
+  "homepage": "https://ebenscript.github.io/metabnb",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.4.0",
