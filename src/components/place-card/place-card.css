@@ -14,15 +14,14 @@
 }
 
 .place-card__image-link {
-  min-height: 263px;
+  min-height: 255px;
   line-height: 0;
-  border-radius: 15px;
+  border-radius: 17px;
   background-color: #c1c1c1;
 }
 
 .place-card__image {
   width: 100%;
-  min-width: 100%;
 }
 
 .place-card__price {
