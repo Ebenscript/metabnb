@@ -18,6 +18,7 @@
   line-height: 0;
   border-radius: 17px;
   background-color: #c1c1c1;
+  overflow: hidden;
 }
 
 .place-card__image {
